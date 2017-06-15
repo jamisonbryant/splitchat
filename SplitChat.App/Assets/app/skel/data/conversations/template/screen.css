@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.message {
+    margin: 7px 0;
+    padding: 0;
+}
+
+.invisible.message {
+    display: none;
+}
+
+.system.message {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.system.message .timestamp { 
+    display: none;
+}
+
+.system.message .sender { 
+    display: none;
+}
+
+.system.message .text {
+    font-style: italic;
+    color: #777777;
+}
+
+.text.message .timestamp, .text.message .sender {
+    font-weight: bold;
+}
+
+.text.message.sent .sender {
+    color: blue;
+}
+
+.text.message.received .sender {
+    color: red;
+}
+
+.notification {
+    font-size: 12px;
+    font-style: italic;
+    color: #777777;
+}
+
+.hidden.notification {
+    display: none;
+}
